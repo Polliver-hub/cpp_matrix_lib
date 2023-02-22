@@ -3,8 +3,7 @@
 
 #include <cmath>
 #include <iostream>
-
-#include "utility"
+#include <utility>
 
 class S21Matrix {
  private:

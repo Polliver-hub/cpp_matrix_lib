@@ -213,22 +213,22 @@ bool S21Matrix::operator!=(const S21Matrix &other) const {
 }
 
 S21Matrix &S21Matrix::operator+=(const S21Matrix &other) {
-  this->SumMatrix(other);
+  SumMatrix(other);
   return *this;
 }
 
 S21Matrix &S21Matrix::operator-=(const S21Matrix &other) {
-  this->SubMatrix(other);
+  SubMatrix(other);
   return *this;
 }
 
 S21Matrix &S21Matrix::operator*=(const S21Matrix &other) {
-  this->MulMatrix(other);
+  MulMatrix(other);
   return *this;
 }
 
 S21Matrix &S21Matrix::operator*=(double num) {
-  this->MulNumber(num);
+  MulNumber(num);
   return *this;
 }
 
